@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/planner-todo
+    url: jdbc:postgresql://localhost:5432/planner_todo
     username: postgres
     password: postgres
