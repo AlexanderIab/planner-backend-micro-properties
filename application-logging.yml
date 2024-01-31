@@ -8,7 +8,6 @@ logging:
   level:
     org:
       hibernate:
-        type:
-          descriptor:
-            sql:
-              BasicBinder: trace
+        orm:
+          jdbc:
+            bind: TRACE
