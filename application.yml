@@ -6,3 +6,6 @@ management:
   endpoint:
     gateway:
       enabled: true
+server:
+  error:
+    include-message: always
